@@ -1,6 +1,6 @@
 .blog {
   display: flex;
-  gap: 5rem;
+  gap: 3rem;
   margin-bottom: 4rem;
 }
 
@@ -18,7 +18,7 @@
 .blog-content {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 0.5rem;
 }
 
 .blog-content h3 {
@@ -40,4 +40,14 @@
 
 .blog-content p {
   font-size: var(--base-size);
+}
+
+@media only screen and (max-width: 1000px) {
+  .blog {
+    flex-wrap: wrap;
+  }
+
+  .blog-section {
+    width: 45%;
+  }
 }

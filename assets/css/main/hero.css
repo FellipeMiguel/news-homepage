@@ -40,7 +40,6 @@
   font-size: var(--base-size);
   height: 55px;
   letter-spacing: 5px;
-  padding: 1rem;
   text-transform: uppercase;
   width: 200px;
 }
@@ -49,4 +48,33 @@
   background-color: var(--vary-dark-blue);
   cursor: pointer;
   transition: ease-in 200ms;
+}
+
+
+@media only screen and (max-width: 1300px) {
+  .hero-content h1 {
+    font-size: var(--tablet-title);
+  }
+
+  .hero-content div p {
+    font-size: var(--tablet-base);
+  }
+
+  .hero-content div button {
+    font-size: var(--tablet-base);
+    height: 41.25px;
+    padding: 0.5rem;
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .hero-content {
+    flex-direction: column;
+    padding-bottom: 2rem;
+  }
+
+  .hero-banner {
+    width: 100%;
+  }
 }

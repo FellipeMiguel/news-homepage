@@ -20,7 +20,13 @@
 
   --base-size: 1.1em;
   --title-size: 4.5em;
-  --title-new: 1.3,em;
+  --title-new: 1.3em;
   --sub-title-size: 2.6em;
   --number-size: 2.2em;
+
+  --tablet-base: 0.825em;
+  --tablet-title: 3.38em;
+  --tablet-new: 0.975em;
+  --tablet-sub-title: 1.95em;
+  --tablet-number: 1.97em;
 }
