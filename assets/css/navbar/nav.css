@@ -1,4 +1,4 @@
-.navbar {
+.nav-bar {
   align-items: center;
   display: flex;
   justify-content: space-between;
@@ -11,12 +11,12 @@
   gap: 2rem;
 }
 
-.nav-item a {
+.nav-link {
   color: var(--grayish-blue);
   font-size: var(--base-size);
   text-decoration: none;
 }
 
-.nav-item a:hover {
+.nav-link:hover {
   color: var(--soft-orange);
 }

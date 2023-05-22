@@ -6,8 +6,18 @@
   color: var(--vary-dark-blue);
   font-family: "Inter-ExtraBold";
   text-decoration: none;
+  font-size: var(--base-size);
 }
 
-.attribution a:hover{
+.attribution a:hover {
   color: var(--soft-orange);
+}
+
+@media only screen and (max-width: 530px) {
+  .attribution a {
+    font-size: var(--tablet-base);
+  }
+  .attribution p {
+    font-size: var(--tablet-base);
+  }
 }
