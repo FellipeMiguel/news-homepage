@@ -1,0 +1,22 @@
+.navbar {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 4rem;
+}
+
+.nav-list {
+  align-items: center;
+  display: flex;
+  gap: 2rem;
+}
+
+.nav-item a {
+  color: var(--grayish-blue);
+  font-size: var(--base-size);
+  text-decoration: none;
+}
+
+.nav-item a:hover {
+  color: var(--soft-orange);
+}

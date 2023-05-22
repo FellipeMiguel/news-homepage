@@ -1,0 +1,13 @@
+.attribution {
+  display: flex;
+}
+
+.attribution a {
+  color: var(--vary-dark-blue);
+  font-family: "Inter-ExtraBold";
+  text-decoration: none;
+}
+
+.attribution a:hover{
+  color: var(--soft-orange);
+}

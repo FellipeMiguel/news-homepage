@@ -1,0 +1,26 @@
+@font-face {
+  font-family: Inter-Regular;
+  src: url(../fonts/static/Inter-Regular.ttf);
+}
+@font-face {
+  font-family: Inter-Bold;
+  src: url(../fonts/static/Inter-Bold.ttf);
+}
+@font-face {
+  font-family: Inter-ExtraBold;
+  src: url(../fonts/static/Inter-ExtraBold.ttf);
+}
+
+:root {
+  --soft-orange: hsl(35, 77%, 62%);
+  --soft-red: hsl(5, 85%, 63%);
+  --off-white: hsl(36, 100%, 99%);
+  --grayish-blue: hsl(233, 8%, 79%);
+  --vary-dark-blue: hsl(240, 100%, 5%);
+
+  --base-size: 1.1em;
+  --title-size: 4.5em;
+  --title-new: 1.3,em;
+  --sub-title-size: 2.6em;
+  --number-size: 2.2em;
+}
