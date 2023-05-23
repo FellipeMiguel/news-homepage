@@ -7,10 +7,6 @@
 }
 
 @media screen and (max-width: 730px) {
-  .nav-bar {
-    padding: 1.5rem 4rem;
-  }
-
   .nav-item {
     display: none;
   }
@@ -19,7 +15,8 @@
     display: block;
   }
 
-  .mobile-menu-icon button, .mobile-menu button {
+  .mobile-menu-icon button,
+  .mobile-menu button {
     background-color: transparent;
     border: none;
     cursor: pointer;

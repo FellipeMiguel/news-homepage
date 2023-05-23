@@ -54,6 +54,11 @@
 @media only screen and (max-width: 1300px) {
   .hero-content h1 {
     font-size: var(--tablet-title);
+    width: 100%;
+  }
+
+  .hero-content div {
+    width: 100%;
   }
 
   .hero-content div p {
@@ -72,9 +77,17 @@
   .hero-content {
     flex-direction: column;
     padding-bottom: 2rem;
+    gap: 1rem;
   }
 
   .hero-banner {
     width: 100%;
+    height: 190px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .hero-content h1 {
+    font-size: var(--mobile-title);
   }
 }

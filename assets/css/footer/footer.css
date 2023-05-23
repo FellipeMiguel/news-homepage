@@ -21,3 +21,12 @@
     font-size: var(--tablet-base);
   }
 }
+
+@media only screen and (max-width: 375px) {
+  .attribution a {
+    font-size: var(--mobile-base);
+  }
+  .attribution p {
+    font-size: var(--mobile-base);
+  }
+}

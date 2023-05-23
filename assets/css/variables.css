@@ -29,4 +29,10 @@
   --tablet-new: 0.975em;
   --tablet-sub-title: 1.95em;
   --tablet-number: 1.97em;
+
+  --mobile-base: 0.55em;
+  --mobile-title: 2.25em;
+  --mobile-new: 0.65em;
+  --mobile-sub-title: 1.3em;
+  --mobile-number: 1.1em;
 }
